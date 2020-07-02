@@ -1,0 +1,11 @@
+{
+  "name": "khalsaaid",
+  "version": "1.0.0",
+  "description": "Donation Site Campaign",
+  "main": "index.js",
+  "scripts": {
+    "compile-css":"sass --watch sass/main.scss:css/main.css"
+  },
+  "author": "Pankaj",
+  "license": "ISC"
+}

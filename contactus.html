@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css"> 
+    <!-- <link rel="stylesheet" href="sass/main.css"> -->
+    <title>KhalsaAid</title>
+</head>
+<body>
+    <header style="height: 50vh;">    
+        <nav class="s">
+            <a href="#" class="logo"><img id="logo" src="./images/logoo.png" alt="Logo Khalsa Aid"></a>
+            <div class="menus">
+                <ul class="item">
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Donate</a></li>
+                </ul>
+                <div class="bar">
+                    <i class="fa fa-bars" id="open" onclick="openNav()"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Show content on bar click  -->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <hr>
+        <div class="overlay-content">
+          <a href="#">Home</a>
+          <a href="#">Our Projects</a>
+          <a href="#">Blog</a>
+          <a href="#">Recent News</a>
+          <a href="#">Events</a>
+          <a href="#">Social Media </a>
+          <a href="#">Contact Us</a>
+          <a href="#">Donate</a>
+        </div>
+    </div>
+    <!--over secgtion  -->
+    <section class="map"> 
+        <div id="map">
+            <img src="./images/map.jpg" alt="Map diretion">
+        </div>
+    </section>
+    
+<!--  -->
+    <section class="twitter">
+        <div class="twitterinfo">
+            <img src="./images/twitterlogo.png" alt="Twitter logo ">
+            <p>66.1k Followers</p>
+            <a href="#">@Khalsa_Aid</a>
+        </div>
+
+        <div class="tweets">
+            <p>RT @NanaimoyouthS: As we temporarily pause the 
+                Youth Food Initiative,
+                 we want to take the time to thank all 
+                 of our donors for their incredi…
+            </p>
+            <div class="stats">
+                <p><i class="fa fa-clock"></i><span>18 Hours Ago</span></p>
+                <p><i class="fa fa-retweet"></i>180</p>
+                <p><i class="fa fa-heart"></i>1800</p>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <section class="longterm">
+        <h2>OUR LONG TERM PROGRAMMES</h2>
+        <div class="contentprogram">
+            <div class="programs">
+                <img src="./images/focus-img.png" alt="">
+                <p>Focus Punjab is our long term programme in Punjab, 
+                    India focusing on providing long term support
+                    in the region.
+                </p>
+            </div>
+            <div class="programs">
+                <img src="./images/langar.png" alt="">
+                <p>Focus Punjab is our long term programme in Punjab, 
+                    India focusing on providing long term support
+                    in the region.
+                </p>
+            </div>            
+        </div>
+    </section>
+
+    <div class="footer-item">
+        <div class="thought">
+            <p>"Recognise the whole human race as one"</p>
+            <p>- Guru Gobind Singh Ji
+            </p>
+        </div>
+        <div class="address">
+            <p> <i class="fa fa-building"></i> Khalsa Aid International
+                Unit 8, Lake End Court, Taplow Road, Taplow, Maidenhead, Berkshire
+                SL6 0JQ
+            </p>
+            <p><i class="fa fa-phone"></i> 0044 (0) 1753 567 457</p>
+            <p><i class="fa fa-envelope"></i> info@khalsaaid.org </p>
+            <p><a href=""><i class="fa fa-envelope"></i> 	Subscribe to mailing list</a></p>
+        </div>
+        <div class="info">
+            <p>For all enquiries regarding volunteering, fundraising 
+                and arranging local events, please contact:</p>
+            <p><a href=""><i class="fa fa-envelope"></i>info@khalsaaid.org</a></p>   
+            <div class="icon">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fa fa-envelope"></i>
+                <i class="fab fa-instagram"></i>
+            </div> 
+            <p>
+                Our <a href="">privacy policy </a> and <a href="">Term</a>
+We use cookies to improve your experience.
+            </p>
+        </div>
+    </div>    
+    <footer>
+        <p class="bot">&copy; Khalsa Aid International - Registred Charity Number : 1163294</p>
+    </footer>
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width="max-content";
+            document.getElementById("myNav").style.display="block";
+
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width="0%";
+        document.getElementById("myNav").style.display="none";
+
+    }
+
+    </script>
+</body>
+</html>e
